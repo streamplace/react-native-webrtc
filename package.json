@@ -30,7 +30,6 @@
   "scripts": {
     "lint": "eslint --max-warnings 0 . && tsc --noEmit",
     "lintfix": "eslint --max-warnings 0 --fix . && tsc --noEmit",
-    "postinstall": "husky install",
     "prepare": "bob build",
     "format": "tools/format.sh"
   },
